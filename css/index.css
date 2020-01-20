@@ -170,3 +170,64 @@ footer{
     }
     
 }
+
+@media (max-width: 500px){
+    .image{
+        display:none;
+    }
+    .head {
+        display: flex;
+        justify-content: center;
+    }    
+    .title{
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+
+    .title p{
+        text-align: center;
+        margin: 10px 30% 70px 30%;
+        border: solid 2px black;
+        padding: 5px;
+    }
+
+    .links{
+        flex-direction: column-reverse; 
+        justify-content: space-between;
+    }
+
+    nav{
+        height: 200px;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu, .logo{
+        margin: 2% 0;        
+    }
+
+    .menu{
+        width: 100%;
+    }
+
+    .menu nav a{
+        width: 100%;        
+        border-bottom: 1px black solid;
+        text-align: center;
+        padding: 2% 0;     
+    }
+
+    .top, .bottom{
+        flex-direction: column;
+    }
+
+    .top div, .bottom div{
+        width: 100%;
+        margin-bottom: 7%;
+    }
+ 
+}
